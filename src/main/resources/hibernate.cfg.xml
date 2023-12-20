@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.username">jdbc_user</property>
+        <property name="hibernate.connection.password">123456</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5433/jdbc_db</property>
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto">create</property>
+        <property name="show_sql">true
+        </property>
+        <!-- MAPPINGS -->
+        <mapping class="main.madel.Employee"/>
+        <mapping class="main.madel.Report"/>
+        <mapping class="main.madel.Role"/>
+        <mapping class="main.madel.ReportSensorMeasurement"/>
+        <mapping class="main.madel.Sensor"/>
+        <mapping class="main.madel.Station"/>
+        <mapping class="main.madel.SensorMeasurement"/>
+        <mapping class="main.madel.Substance"/>
+        <mapping class="main.madel.TechnicalService"/>
+        <mapping class="main.madel.Vocation"/>
+
+<!--        <mapping class="spring.madel.PostCommentEntity"/>-->
+
+    </session-factory>
+</hibernate-configuration>

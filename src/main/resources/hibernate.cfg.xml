@@ -11,9 +11,8 @@
         <property name="show_sql">true
         </property>
         <!-- MAPPINGS -->
-        <mapping class="main.madel.Employee"/>
+        <mapping class="main.madel.Profile"/>
         <mapping class="main.madel.Report"/>
-        <mapping class="main.madel.Role"/>
         <mapping class="main.madel.ReportSensorMeasurement"/>
         <mapping class="main.madel.Sensor"/>
         <mapping class="main.madel.Station"/>

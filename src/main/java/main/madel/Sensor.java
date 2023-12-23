@@ -1,11 +1,15 @@
 package main.madel;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "sensor")
 public class Sensor {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -13,17 +17,13 @@ public class Sensor {
     private String name;
 
 
-    @OneToOne
-    @JoinColumn(name = "station")
+    @ManyToOne (fetch=FetchType.LAZY)
+    @JoinColumn(name = "station_id")
     private Station station;
 
 
-    @OneToOne
-    @JoinColumn(name = "substance")
+    @ManyToOne (fetch=FetchType.LAZY)
+    @JoinColumn(name = "substance_id")
     private Substance substance;
-
-    //Station id
-    //Substance id
-
 
 }

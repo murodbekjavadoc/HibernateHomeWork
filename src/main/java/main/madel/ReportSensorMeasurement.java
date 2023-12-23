@@ -1,22 +1,24 @@
 package main.madel;
 
-import javax.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
+import javax.persistence.*;
+@Getter
+@Setter
 @Entity
 @Table(name = "Report_Sensor_Measurement")
-public class ReportSensorMeasurement {
+public class ReportSensorMeasurement {  // report bilan sensorni ulaydi
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @OneToOne
+    @ManyToOne(fetch = FetchType.LAZY)// true
     @JoinColumn(name = "report_id")
     private Report report;
-    @OneToOne
+    @ManyToOne(fetch = FetchType.LAZY)   // true
     @JoinColumn(name = "sensor_measurement")
     private SensorMeasurement sensorMeasurement;
 
 
-    // Report id
-    // SensorMeasurement id
 }

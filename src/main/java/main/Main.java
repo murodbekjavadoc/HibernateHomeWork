@@ -17,7 +17,10 @@ public class Main {
         Session session = factory.openSession();
         Transaction t = session.beginTransaction();
 
-        t.commit();
+
+           t.commit();
+
+
         System.out.println(" End    Work ! ");
     }
 }

@@ -1,19 +1,22 @@
 package main.madel;
 
-import clojure.lang.IFn;
+import lombok.Getter;
+import lombok.Setter;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "station")
 public class Station {
     @Id
-    private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+    @Column(name = "code")
+    private String code;
     @Column(name = "latitude")
-    private Double latitude;
-    @Column(name = "latitude")
-    private Double longitude;
+    private Double latitude;  // cordinata x
+    @Column(name = "longitude")
+    private Double longitude; // cordinata y
 }

@@ -8,26 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeb66ee1-c362-4cfb-9802-2f90ed9b84e4" name="Changes" comment="madellar tayyor">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/madel/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/madel/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/madel/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/madel/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/madel/ReportSensorMeasurement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/madel/ReportSensorMeasurement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/madel/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/madel/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/madel/Sensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/madel/SensorMeasurement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/madel/SensorMeasurement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/madel/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/madel/Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/madel/Substance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/madel/Substance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/madel/TechnicalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/madel/TechnicalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/madel/Vocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/madel/Vocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +45,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Master__Java",
-    "last_opened_file_path": "C:/Namunalar/Hibernate/Home_work/HomeworkAmbulance",
+    "last_opened_file_path": "C:/Namunalar/Spring boot/lesson_1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +74,7 @@
       <workItem from="1703081331691" duration="14366000" />
       <workItem from="1703221752030" duration="7564000" />
       <workItem from="1703242927132" duration="18000" />
+      <workItem from="1703339479094" duration="1380000" />
     </task>
     <task id="LOCAL-00001" summary="madellar tayyor">
       <option name="closed" value="true" />
@@ -102,7 +84,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703098075775</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="madellar tayyor">
+      <option name="closed" value="true" />
+      <created>1703339530709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703339530710</updated>
+    </task>
+    <task id="LOCAL-00003" summary="madellar tayyor">
+      <option name="closed" value="true" />
+      <created>1703339545395</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703339545395</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
